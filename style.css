@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: #191919;
+}
+
+.caixa-principal {
+    background-color: #191919;
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+
+}
+
+
+.portifolio {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.portifolio span {
+    color: #f9004d;
+}
+
+li {
+    color: #ffffff;
+    list-style: none;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer; 
+}
+
+li:hover {
+    color: #f9004d;
+    transition: 0.7s;
+}
+
+.caixa-2 {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    
+    
+}
+.meu-nome{
+    color: #ffffff;;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.meu-nome span {
+    color: #f9004d;
+}
+.caixa-2 > img {
+    padding-left: 30%;
+
+}
+
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px 15%;
+    background-color: #000000;
+}
+
+section img {
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-right: 40px;
+}
+section div h2 {
+    color: #ffffff;
+    font-size: 50px;
+}
+section div p {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px 0 60px 0;
+}
+section div input {
+    color: #ffffff;
+    background-color: #f9004d;
+    height: 40px;
+    width: 160px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px
+}
+section div input:hover {
+    background-color: #000000;
+    border: 3px solid #f9004d;
+    transition:0.7s
+
+}
+
