@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="home">
         
         <nav>
             <h2 class="portifolio">Portifó<span>lio</span></h2>
                 <ul>
-                    <a href=""><li>Home</li></a>
-                    <a href=""><li>Sobre</li></a>
-                    <a href=""><li>Projetos</li></a>
-                    <a href=""><li>Fale comigo</li></a>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="#projetos-id"><li>Projetos</li></a>
+                    <a href="#fale-comigo"><li>Fale comigo</li></a>
                 </ul>
         </nav>   
         <div class="caixa-2">
@@ -28,7 +28,7 @@
         </div>   
     </div>
 
-    <section>
+    <section id="sobre">
         <img src="img/WhatsApp Image 2023-01-15 at 16.33.44.jpeg" alt="">
         <div>
             <h2>Sobre mim</h2>
@@ -36,6 +36,42 @@
             <input type="button" value="Entre em contato">
         </div>
     </section>
+
+    <div class="projetos" id="projetos-id">
+        
+        <h2>Principais Projetos</h2>
+        
+        <div class="card-principal">
+            <div class="card">
+                <img src="img/netflix.png" alt="">
+                <h5>Netflix</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. harum dolorem voluptatibus laborum!</p>
+                <a href="https://www.netflix.com/br/" target="_blank">Ver projeto</a>
+            </div>
+            
+            <div class="card">
+                <img src="img/starbucks.png" alt="">
+                <h5>Starbucks</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro harum  voluptatibus laborum!</p>
+                <a href="https://starbucks.com.br/" target="_blank">Ver projeto</a>
+            </div>
+            <div class="card">
+                <img src="img/crono.png" alt="">
+                <h5>Cronometro</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro harum voluptatibus laborum!</p>
+                <a href="https://cronometronline.com.br/" target="_blank">Ver projeto</a>
+            </div>
+        </div>
     
+    </div>
+        <footer id="fale-comigo">
+            <h5>Richard Lima</h5>
+            <p>Para mais informações</p>
+
+            <div class="social">
+                <a href="https://br.linkedin.com/" target="_blank"><img src="img/linkedin.png" alt=""></a>
+                <a href="tel:+551193454540"><img src="img/telefone.png" alt=""></a>
+            </div>
+        </footer>
 </body>
 </html>
