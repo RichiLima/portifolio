@@ -57,6 +57,7 @@ li:hover {
     display: flex;
     align-items: center;
     padding-top: 50px;
+    justify-content: space-between;
     
     
 }
@@ -69,10 +70,7 @@ li:hover {
 .meu-nome span {
     color: #f9004d;
 }
-.caixa-2 > img {
-    padding-left: 30%;
 
-}
 
 section{
     width: 100%;
