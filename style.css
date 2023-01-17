@@ -120,6 +120,8 @@ section div input:hover {
     color: #ffffff;
     font-size: 50px;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .card{
@@ -198,5 +200,11 @@ footer p{
 }
 .social a:hover{
     transform: scale(1.2);
+    transition: 0.5s;
+}.swiper-pagination span{
+    background-color: #ffffff;
+}
+.swiper-pagination span:hover{
+    transform: scale(1.5);
     transition: 0.5s;
 }
