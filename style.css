@@ -16,14 +16,23 @@ body{
    
 }
 
+/* navbar */
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 25px;
-
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    transition: .3s;
+}
+/* fim-navbar */
+.scroll__active{
+    background-color: #5d5b5c;
+    z-index: 999;
+    transition: .3s;
+    background-image: linear-gradient(to bottom, #5d5b5c, #191919 );
 }
 
 
